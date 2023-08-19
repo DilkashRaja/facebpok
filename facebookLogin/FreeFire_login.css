@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@600&family=Encode+Sans+SC&family=Handjet:wght@200&family=Inconsolata:wght@300&family=Mukta:wght@700&family=Noto+Sans:wght@300&family=Noto+Serif+Georgian&family=Orbitron&family=Pacifico&family=Pathway+Extreme&family=Patua+One&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #dbdada;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    height: 50px;
+    background: #184adf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    color: aliceblue;
+    font-family: 'Exo 2', sans-serif;
+    /* clip: rect(1px, 1px, 1px, 1px); */
+    /* height: 1px; */
+    /* left: auto; */
+    /* overflow: hidden;/ */
+    /* position: absolute; */
+    /* white-space: nowrap; */
+    /* width: 1px; */
+}
+
+.main .main_body {
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.main_body img {
+    width: 60px;
+    margin-top: 30px;
+    /* margin: 20px;
+     */
+    margin-bottom: 10px;
+}
+
+.main_body h5 {
+    font-size: 13px;
+    line-height: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+.main .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.login .all {
+    background: #ffffff;
+    margin-top: 30px;
+    border: 1px solid rgb(59, 56, 56);
+    border-radius: 5px;
+    margin-left: 10px;
+    /* padding-left: 20px; */
+}
+
+.login input {
+    width: 99%;
+    height: 40px;
+    border: none;
+}
+
+::placeholder {
+    padding-left: 10px;
+}
+
+.login .button {
+    background: #2856df;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 83%;
+    height: 40px;
+    color: white;
+    font-size: 17px;
+    /* font-family: cursive; */
+}
+
+.main .for_cre_not_help {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    padding: 6px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items:last baseline ;
+    margin-top: 60px;
+}

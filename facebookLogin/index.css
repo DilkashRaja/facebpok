@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@600&family=Encode+Sans+SC&family=Handjet:wght@200&family=Inconsolata:wght@300&family=Mukta:wght@700&family=Noto+Sans:wght@300&family=Noto+Serif+Georgian&family=Orbitron&family=Pacifico&family=Pathway+Extreme&family=Patua+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 100%; */
+    /* height: 00px; */
+}
+
+body {
+    background-image: url(mobile-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: min-content;
+}
+
+.main {
+    background: #00000092;
+
+}
+
+/* .main_header {
+    /* background: #000; */
+    /* width: 100%; */
+    /* height: 60px; */
+/* } */ 
+
+.top_header img {
+    position: absolute;
+    /* background-position: top; */
+    /* background-size: contain; */
+    background-repeat: repeat-x;
+    background-image: url(top_teeth.png);
+    padding-left: 53px;
+}
+
+.last_header img {
+    width: 160px;
+    height: 25px;
+    margin: 10px;
+}
+
+.main_body {
+    margin-top: 60px;
+    color: aliceblue;
+    ;
+}
+
+.main_body .body_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body_header h1 {
+    color: aliceblue;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Encode Sans SC', sans-serif;
+    /* padding-bottom: 10px; */
+}
+.body_header p{
+    font-size: 20px;
+    font-family: 'Encode Sans SC', sans-serif;
+    padding-bottom: 20px;
+}
+.main_body .all_main_icons{
+    margin-top: 20px;
+    align-items: center;
+   text-align: center;
+    
+}
+.all_main_icons img{
+    width: 40px;
+    margin: 4px;
+}
+.last_body{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    background: #ffffffd0;
+    border: 1px solid black;
+    padding: 10px;
+    width: 95%;
+    height: 250px;
+    border-radius: 10px;
+    overflow: scroll;
+}
+.footer{
+    margin-top: 77px;
+    color: aliceblue;
+    background: #000;
+}
+footer{
+
+    display: flex;
+    /* margin: 10px; */
+}
+footer img{
+    margin-top: 17px;
+    width: 60px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 20px;
+}
+footer h4{
+    margin: 10px;
+    font-family: 'Encode Sans SC', sans-serif;
+    padding-bottom: 6px;
+}
